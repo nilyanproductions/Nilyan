@@ -1,0 +1,115 @@
+.footer {
+    background: #0f172a;
+    /* Dark Slate to anchor the page */
+    color: white;
+    padding: 80px 0 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ctaSection {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.ctaTitle {
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.4) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.emailBtn {
+    background: var(--color-primary);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 30px rgba(50, 135, 181, 0.2);
+}
+
+.emailBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px rgba(50, 135, 181, 0.4);
+}
+
+.linksSection {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.brandColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.copyright {
+    color: var(--color-text-muted);
+    font-size: 14px;
+}
+
+.linkColumn h3 {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin-bottom: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.linkColumn a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    margin-bottom: 16px;
+    transition: color 0.2s ease;
+}
+
+.linkColumn a:hover {
+    color: var(--color-primary);
+}
+
+@media (max-width: 968px) {
+    .ctaTitle {
+        font-size: 64px;
+    }
+
+    .linksSection {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .brandColumn {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .linksSection {
+        grid-template-columns: 1fr;
+    }
+
+    .brandColumn {
+        grid-column: span 1;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,76 @@
+:root {
+  --color-bg: #E0F2FE;
+  /* Light sky blue */
+  --color-primary: #0EA5E9;
+  /* Bright Sky Blue */
+  --color-secondary: #7DD3FC;
+  /* Softer Sky Blue/Cloud White */
+  --color-accent: #C0C0C0;
+  /* Silver/Metallic */
+  --color-text-main: #0F172A;
+  /* Dark Slate Blue (almost black) */
+  --color-text-muted: #475569;
+  /* Slate Gray */
+  --color-surface: rgba(255, 255, 255, 0.7);
+  /* Glassy white */
+  --font-main: 'Plus Jakarta Sans', sans-serif;
+
+  /* Gradient for text/elements */
+  --gradient-main: linear-gradient(135deg, #0EA5E9 0%, #38BDF8 100%);
+  --gradient-silver: linear-gradient(135deg, #E2E8F0 0%, #FFFFFF 50%, #CBD5E1 100%);
+}
+
+* {
+  box-sizing: border-box;
+  /* Hide default cursor to use custom one */
+  cursor: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-text-main) 0%, var(--color-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
