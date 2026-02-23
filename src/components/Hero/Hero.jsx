@@ -25,9 +25,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                     >
-                        Nilyan is a digital agency that transforms ideas into
-                        exceptional digital experiences. We craft websites that
-                        captivate and convert.
+                        At Nilyan we transform ideas into exceptional digital experiences. Our team crafts content that captivates and converts.
                     </motion.p>
 
                     <motion.div
