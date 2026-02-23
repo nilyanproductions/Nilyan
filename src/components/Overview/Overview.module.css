@@ -81,3 +81,17 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 480px) {
+    .statsGrid {
+        gap: 16px;
+    }
+
+    .statCard {
+        padding: 24px 12px;
+    }
+
+    .statNumber {
+        font-size: 32px;
+    }
+}
