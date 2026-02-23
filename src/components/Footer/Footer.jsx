@@ -33,7 +33,7 @@ const Footer = () => {
                         <a href="https://www.instagram.com/nilyanproductions/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                             <Instagram size={18} /> Instagram
                         </a>
-                        <a href="#" className={styles.socialLink}>
+                        <a href="https://x.com/Nilyan_in" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                             <Twitter size={18} /> Twitter
                         </a>
                         <a href="#" className={styles.socialLink}>
