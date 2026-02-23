@@ -4,16 +4,16 @@ import styles from './Work.module.css';
 
 // 2 Horizontal, 8 Vertical
 const videos = [
-    { id: '1', type: 'horizontal', src: 'https://www.youtube.com/embed/aqz-KE-bpKQ' },
-    { id: '2', type: 'horizontal', src: 'https://www.youtube.com/embed/ScMzIvxBSi4' },
-    { id: '3', type: 'vertical', src: 'https://www.youtube.com/embed/S7xTBa93TX8' },
-    { id: '4', type: 'vertical', src: 'https://www.youtube.com/embed/LXb3EKWsInQ' },
-    { id: '5', type: 'vertical', src: 'https://www.youtube.com/embed/tgbNymZ7vqY' },
-    { id: '6', type: 'vertical', src: 'https://www.youtube.com/embed/Bey4XXJAqS8' },
-    { id: '7', type: 'vertical', src: 'https://www.youtube.com/embed/PeMvMnjrB6o' },
-    { id: '8', type: 'vertical', src: 'https://www.youtube.com/embed/y881t8ilMyc' },
-    { id: '9', type: 'vertical', src: 'https://www.youtube.com/embed/gJ6VMs3c21k' },
-    { id: '10', type: 'vertical', src: 'https://www.youtube.com/embed/F1B9Fk_SgI0' },
+    { id: '1', type: 'horizontal', src: 'https://www.youtube.com/embed/A4-Heqg7k_w' },
+    { id: '2', type: 'horizontal', src: 'https://www.youtube.com/embed/Pk_fJtL2lwk' },
+    { id: '3', type: 'vertical', src: 'https://www.youtube.com/embed/xWSFSLm0MSQ' },
+    { id: '4', type: 'vertical', src: 'https://www.youtube.com/embed/7nmA6hcaWDQ' },
+    { id: '5', type: 'vertical', src: 'https://www.youtube.com/embed/H92uXJ_xvPU' },
+    { id: '6', type: 'vertical', src: 'https://www.youtube.com/embed/9w5w3bjpBi8' },
+    { id: '7', type: 'vertical', src: 'https://www.youtube.com/embed/VwWtK1efLBY' },
+    { id: '8', type: 'vertical', src: 'https://www.youtube.com/embed/9MvPeFHVAx8' },
+    { id: '9', type: 'vertical', src: 'https://www.youtube.com/embed/8zFGuKP32lA' },
+    { id: '10', type: 'vertical', src: 'https://www.youtube.com/embed/jLqaffhvzDA' },
 ];
 
 const Work = () => {
