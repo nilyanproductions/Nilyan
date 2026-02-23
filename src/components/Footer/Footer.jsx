@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Instagram, Twitter, Linkedin, Mail, Phone } from 'lucide-react';
+import { ArrowUpRight, Instagram, Twitter, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import styles from './Footer.module.css';
 
 const Footer = () => {
@@ -30,7 +30,7 @@ const Footer = () => {
 
                     <div className={styles.linkColumn}>
                         <h3>Socials</h3>
-                        <a href="#" className={styles.socialLink}>
+                        <a href="https://www.instagram.com/nilyanproductions/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
                             <Instagram size={18} /> Instagram
                         </a>
                         <a href="#" className={styles.socialLink}>
@@ -43,6 +43,10 @@ const Footer = () => {
 
                     <div className={styles.linkColumn}>
                         <h3>Contact</h3>
+                        <a href="https://maps.google.com/?q=66,+Sector+15+Part+4,+Sonipat,+Haryana" target="_blank" rel="noopener noreferrer" className={styles.addressLink}>
+                            <MapPin size={18} />
+                            <span>66, Sector 15 Part 4,<br />Sonipat, Haryana</span>
+                        </a>
                         <a href="mailto:nilyanproductions@gmail.com">
                             <Mail size={18} /> nilyanproductions@gmail.com
                         </a>

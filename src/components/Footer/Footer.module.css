@@ -84,6 +84,14 @@
     transition: color 0.2s ease;
 }
 
+.addressLink {
+    align-items: flex-start !important;
+}
+
+.addressLink span {
+    line-height: 1.4;
+}
+
 .linkColumn a:hover {
     color: var(--color-primary);
 }

@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import styles from './Overview.module.css';
 
 const stats = [
-    { number: "50+", label: "Projects Completed" },
+    { number: "100+", label: "Projects Completed" },
     { number: "8+", label: "Team Members" },
     { number: "25+", label: "Happy Clients" },
-    { number: "5M+", label: "Impressions" },
+    { number: "40M+", label: "Impressions" },
 ];
 
 const Overview = () => {
