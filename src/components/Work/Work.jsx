@@ -4,8 +4,8 @@ import styles from './Work.module.css';
 
 // 8 Vertical, 2 Horizontal
 const videos = [
-    { id: '1', type: 'vertical', src: 'https://www.youtube.com/embed/xWSFSLm0MSQ' },
-    { id: '2', type: 'vertical', src: 'https://www.youtube.com/embed/7nmA6hcaWDQ' },
+    { id: '1', type: 'vertical', src: 'https://www.youtube.com/embed/7nmA6hcaWDQ' },
+    { id: '2', type: 'vertical', src: 'https://www.youtube.com/embed/xWSFSLm0MSQ' },
     { id: '3', type: 'vertical', src: 'https://www.youtube.com/embed/H92uXJ_xvPU' },
     { id: '4', type: 'vertical', src: 'https://www.youtube.com/embed/9w5w3bjpBi8' },
     { id: '5', type: 'vertical', src: 'https://www.youtube.com/embed/VwWtK1efLBY' },
